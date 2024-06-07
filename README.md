@@ -1,8 +1,6 @@
 ## About Me
 Current Bioinformatics MSc student with experience in analyzing complex genomic data. I have expertise in a broad range of bioinformatics methods and tools, including proficiency in Python and R for scientific programming, and experience in designing analysis pipelines.
 
-## Skills
-
 
 ## Work Examples
 
