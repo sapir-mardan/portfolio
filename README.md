@@ -8,7 +8,7 @@ R
 
 ## WORK EXAMPLES
 ```diff
-@@ Text in Purple and bold @@
+ Text in Purple and bold 
 ```
 `#ffffff`
 
