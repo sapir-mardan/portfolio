@@ -7,9 +7,9 @@ Python
 R
 
 ## WORK EXAMPLES
-
+```diff
 @@ Text in Purple and bold @@
-
+```
 `#ffffff`
 
 
