@@ -1,1 +1,11 @@
-# Bioinformatics
+# BIOINFORMATICS PORTFOLIO
+
+
+## SKILLS
+
+Python
+
+R
+
+
+
