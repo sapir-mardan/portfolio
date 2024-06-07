@@ -8,7 +8,7 @@ R
 
 ## WORK EXAMPLES
 
-** Python
+@@ Text in Purple and bold @@
 
 `#ffffff`
 
