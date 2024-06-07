@@ -6,5 +6,10 @@ Python
 
 R
 
+## WORK EXAMPLES
+
+** Python
+
+`#ffffff`
 
 
