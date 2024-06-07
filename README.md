@@ -1,7 +1,5 @@
-# BIOINFORMATICS PORTFOLIO
-
 <img width="821" alt="image" src="https://github.com/sapir-mardan/portfolio/assets/92859243/fe6df891-428c-41e6-b93a-3fe1afaf8165">
-
+******
 
  SKILLS
 
