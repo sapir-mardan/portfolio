@@ -46,8 +46,8 @@ h7 {
 
 .linkim a {
   text-decoration: none;
-  color: #676767;
-  font-size: 11px;
+  color: #333333; /* Changed to dark grey */
+  font-size: 14px; /* Increased font size */
   font-weight: normal; /* Ensuring the font is not bold */
   text-align: center;
   display: block;
@@ -55,7 +55,8 @@ h7 {
 }
 
 .linkim a:hover, .linkim a:focus {
-  color: #675C5C;
+  color: #1a1a1a; /* Slightly darker grey on hover */
   font-weight: normal; /* Keeping font weight normal even on hover */
 }
+
 
