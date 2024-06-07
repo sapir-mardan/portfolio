@@ -1,7 +1,6 @@
 # BIOINFORMATICS PORTFOLIO
 
-
-## SKILLS
+ SKILLS
 
 Python
 
