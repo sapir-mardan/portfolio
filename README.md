@@ -5,7 +5,7 @@ Current Bioinformatics MSc student with experience in analyzing complex genomic 
 ## Projects Examples
 
 ### Python:
-* **Cellular Automata Simulation**: Implemented a computationally efficient simulation of a a forest fire propagation model, conducted statistical analysis of stable state conditions, and visualized insights.[Link to GitHub Repository.](https://github.com/sapir-mardan/CellularAutomataFireModel)
+* **Cellular Automata Simulation**: Implemented a computationally efficient simulation of a a forest fire propagation model, conducted statistical analysis of stable state conditions, and visualized insights. [Link to GitHub Repository.](https://github.com/sapir-mardan/CellularAutomataFireModel)
   
 * **Parallel Subsequence Search**: Algorithmic design to find the longest subsequence in genomic data, enhancing efficiency with parallel processing.[Link to GitHub Repository.](https://github.com/sapir-mardan/ParallelSubSearch/tree/main)
   
