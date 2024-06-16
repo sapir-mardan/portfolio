@@ -12,7 +12,9 @@ Current Bioinformatics MSc student with experience in analyzing complex genomic 
 * **Puffin Classifier:** The project emphasizes machine learning, model selection and data visualization to classify puffin species. [Link to GitHub Repository.](https://github.com/sapir-mardan/PuffinClassifier)
 
 ### Genomics:
-* **Pathogen Genomic Analysis Toolkit:** Pipeline designe as an easy-to-use interface, with Python and Bash scripts that integrate seamlessly to run bioinformatics tasks such as:
+* **Pathogen Genomic Analysis Toolkit:** Pipeline designe as an easy-to-use interface, integrates seamlessly Python and Bash scripts to run bioinformatics tasks such as:
   - Creating BLAST database from FASTA files and perform BLAST searches,
-  - retrieve information from NCBI database, using various Biopython modules (SeqIO, Entrez, NCBIXML), parse and process BLAST results and save output in a user-friendly format. [Link to GitHub Repository](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit)
+  - Retrieve information from NCBI database,
+  - using various Biopython modules (SeqIO, Entrez, NCBIXML),
+  - parse and process BLAST results and save output in a user-friendly format. [Link to GitHub Repository](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit)
 
