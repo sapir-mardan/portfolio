@@ -1,5 +1,7 @@
 ## About Me
-Current Bioinformatics MSc student with experience in analyzing complex genomic data. I have expertise in a broad range of bioinformatics methods and tools, including proficiency in Python and R for scientific programming, and experience in designing analysis pipelines.
+Current Bioinformatics MSc student with experience in analyzing complex genomic data. I have expertise in a broad range of bioinformatics methods and tools, including proficiency in Python, and experience in designing analysis pipelines, R, Unix/Linux environments and various bioinformatics tools.  
+  
+My interest in coding was sparked during my bachelor's studies, where I discovered the power of programming to unravel the mysteries of life. What started as a hobby grew into a passion for learning new techniques and solving problems in the most efficient way. I am enthusiastic about further developing my skills and contributing my expertise to cutting-edge research.
 
 
 ## Projects Examples
@@ -12,10 +14,6 @@ Current Bioinformatics MSc student with experience in analyzing complex genomic 
 * **Puffin Classifier:** The project emphasizes machine learning, model selection and data visualization to classify puffin species. [Link to GitHub Repository.](https://github.com/sapir-mardan/PuffinClassifier)
 
 ### Genomics:
-* **Pathogen Genomic Analysis Toolkit:** Pipeline designed as an easy-to-use interface, integrates seamlessly Python and Bash scripts to run bioinformatics tasks.  
-    
-  - Creating BLAST database from FASTA files and perform BLAST searches,
-  - Retrieve information from NCBI database,
-  - Using various Biopython modules (SeqIO, Entrez, NCBIXML),
-  - Parse and process BLAST results and save output in a user-friendly format. [Link to GitHub Repository](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit)
+* **Pathogen Genomic Analysis Toolkit:** Pipeline designed as an easy-to-use interface, integrates seamlessly Python and Bash scripts to run bioinformatics tasks.
+  The program creates BLAST database, performs BLAST searches, parse the results to an output in a user-friendly format which can help identify and analyze specific genes of interest in any strain. [Link to GitHub Repository](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit).
 
