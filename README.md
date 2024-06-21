@@ -7,12 +7,12 @@ My interest in coding was sparked during my bachelor's studies, where I discover
 ## Projects Examples
 
 ### Python:
-* **Cellular Automata Simulation**: Implemented a computationally efficient simulation of a a forest fire propagation model, conducted statistical analysis of stable state conditions, and visualized insights. [GitHub Link.](https://github.com/sapir-mardan/CellularAutomataFireModel)
+* **Cellular Automata Simulation**: Implemented a computationally efficient simulation of a a forest fire propagation model, conducted statistical analysis of stable state conditions, and visualized insights. [GitHub.](https://github.com/sapir-mardan/CellularAutomataFireModel)
   
-* **Parallel Subsequence Search**: Algorithmic design to find the longest subsequence in genomic data, enhancing efficiency with parallel processing. [GitHub Link.](https://github.com/sapir-mardan/ParallelSubSearch/tree/main)
+* **Parallel Subsequence Search**: Algorithmic design to find the longest subsequence in genomic data, enhancing efficiency with parallel processing. [GitHub.](https://github.com/sapir-mardan/ParallelSubSearch/tree/main)
   
-* **Puffin Classifier:** The project emphasizes machine learning, model selection and data visualization to classify puffin species. [GitHub Link.](https://github.com/sapir-mardan/PuffinClassifier)
+* **Puffin Classifier:** The project emphasizes machine learning, model selection and data visualization to classify puffin species. [GitHub.](https://github.com/sapir-mardan/PuffinClassifier)
 
 ### Genomics:
-* **Pathogen Genomic Analysis Toolkit:** An easy-to-use pipeline, designed as a program, integrating Python and Bash scripts to run bioinformatics tasks. It creates BLAST databases, performs searches, and parses results into a user-friendly format to identify and analyze specific genes in any strain. [GitHub Link.](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit)
+* **Pathogen Genomic Analysis Toolkit:** An easy-to-use pipeline, designed as a program, integrating Python and Bash scripts to run bioinformatics tasks. It creates BLAST databases, performs searches, and parses results into a user-friendly format to identify and analyze specific genes in any strain. [GitHub.](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit)
 
