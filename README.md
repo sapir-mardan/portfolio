@@ -14,5 +14,5 @@ My interest in coding was sparked during my bachelor's studies, where I discover
 * **Puffin Classifier:** The project emphasizes machine learning, model selection and data visualization to classify puffin species. [GitHub Link.](https://github.com/sapir-mardan/PuffinClassifier)
 
 ### Genomics:
-* **Pathogen Genomic Analysis Toolkit:** An easy-to-use pipeline, designed as a program, integrating Python and Bash scripts to run bioinformatics tasks. It creates BLAST databases, performs searches, and parses results into a user-friendly format to identify and analyze specific genes in any strain. [GitHub Link.](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit).
+* **Pathogen Genomic Analysis Toolkit:** An easy-to-use pipeline, designed as a program, integrating Python and Bash scripts to run bioinformatics tasks. It creates BLAST databases, performs searches, and parses results into a user-friendly format to identify and analyze specific genes in any strain. [GitHub Link.](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit)
 
