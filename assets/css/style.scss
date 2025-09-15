@@ -28,11 +28,15 @@ h7 {
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
-  width: 270px;  /* Adjust width as necessary */
-  display: flex; /* Using flexbox to center items */
-  align-items: center; /* Align items vertically */
-  justify-content: center; /* Center items horizontally */
+  
+  display: flex;             /* flexbox layout */
+  align-items: center;       /* vertical centering */
+  justify-content: center;   /* horizontal centering */
+  
+  margin: 1.5em auto;        /* centers the whole box on the page */
+  width: fit-content;        /* box fits content, no extra space */
 }
+
 
 .linkim li {
   width: calc(100% / 3); /* Divide width equally among items */
