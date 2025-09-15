@@ -12,9 +12,12 @@ body {
 }
 
 h7 {
-  font-size: 25px;
+  font-size: 32px;
   font-family: 'Comfortaa', sans-serif;
   color: #000000; /* Ensuring the color is black */
+  line-height: 1.6;           /* improves readability */
+  text-align: center;         /* centers under your name/photo */
+  margin: 1.5em 0;
   
 }
 
@@ -62,6 +65,7 @@ h7 {
 .intro-text { /*the intro below my picture*/
     font-size: 1.25em;   /*25% bigger than normal */
     line-height: 1.6;    /*improves readability */
+    text-align: center;
 }
 
 
