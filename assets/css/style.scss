@@ -36,12 +36,11 @@ h7 {
 
 
 .linkim li {
-  width: calc(100% / 3); /* Divide width equally among items */
+  flex: 1;                     /* each takes equal space */
   border-right: 1px solid #e0e0e0;
   display: flex;
-  justify-content: center; /* Center text horizontally */
-  align-items: center; /* Center text vertically */
-  height: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .linkim li:last-child {
