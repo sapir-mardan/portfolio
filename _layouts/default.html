@@ -17,17 +17,25 @@
     <div class="wrapper">
       <header>
         <h7>{{ site.title | default: site.github.repository_name }}</h7>
-        <h2>Sapir Mardan</h2>
+        <h2>Sapir Mardan — Software & Data Projects</h2>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
+
+        <p>
+           I build software and data analysis projects with a focus on clarity and problem-solving.  
+           Every project is <strong>well-documented on GitHub</strong> — and here you can also 
+           <strong>read short posts</strong> that explain the motivation, methods, and results.  
+        </p>
+
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
+
 
         {% if site.show_downloads %}
         <ul class="linkim">
