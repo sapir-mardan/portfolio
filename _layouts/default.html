@@ -13,20 +13,27 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h7>PORTFOLIO BY SAPIR MARDAN</h7>
-        <h2 class="main-title">Software & Data Projects</h2>
+<body>
+  <!-- HERO -->
+  <section class="hero">
+    <h4 class="portfolio-subtitle">PORTFOLIO BY SAPIR MARDAN</h4>
+    <h2 class="main-title">Software & Data Projects</h2>
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+    {% if site.logo %}
+      <img src="{{site.logo | relative_url}}" alt="Profile picture" class="profile-pic" />
+    {% endif %}
 
-        <p  class="intro-text"> 
-           Every project is <strong>well-documented on GitHub.</strong><br>
-           <strong>Here you can read short posts</strong> that explain the methods and results.  
-        </p>
+    <p class="intro-text"> 
+      Every project is <strong>well-documented on GitHub.</strong><br>
+      <strong>Here you can read short posts</strong> that explain the methods and results.  
+    </p>
+
+    <ul class="linkim">
+      <li><a href="/CV.pdf">CV</a></li>
+      <li><a href="https://linkedin.com/in/sapirmardan">LinkedIn</a></li>
+      <li><a href="https://github.com/sapir-mardan">GitHub</a></li>
+    </ul>
+  </section>
 
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
