@@ -47,6 +47,15 @@ h7 {
   border-right: none;
 }
 
+.main-title {
+  font-size: 40px;             /* larger than normal */
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;         /* gives a sleek, spaced look */
+  margin-bottom: 1.5em;        /* adds breathing room */
+}
+
 .linkim a {
   text-decoration: none;
   color: #333333; /* Changed to dark grey */
