@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% seo %}
+{% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -14,39 +14,48 @@
     {% include head-custom.html %}
   </head>
   <body>
-    
-    <!-- HERO -->
-    <section class="hero">
-      <h4 class="portfolio-subtitle">PORTFOLIO BY SAPIR MARDAN</h4>
-      <h2 class="main-title">Software & Data Projects</h2>
+    <div class="wrapper">
+      <header>
+        <h7>PORTFOLIO BY SAPIR MARDAN</h7>
+        <h2 class="main-title">Software & Data Projects</h2>
 
-      {% if site.logo %}
-        <img src="{{ site.logo | relative_url }}" alt="Profile picture" class="profile-pic" />
-      {% endif %}
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
 
-      <p class="intro-text"> 
-        Every project is <strong>well-documented on GitHub.</strong><br>
-        <strong>Here you can read short posts</strong> that explain the methods and results.  
-      </p>
+        <p  class="intro-text"> 
+           Every project is <strong>well-documented on GitHub.</strong><br>
+           <strong>Here you can read short posts</strong> that explain the methods and results.  
+        </p>
 
-      <ul class="linkim">
-        <li><a href="/CV.pdf">CV</a></li>
-        <li><a href="https://linkedin.com/in/sapirmardan">LinkedIn</a></li>
-        <li><a href="https://github.com/sapir-mardan">GitHub</a></li>
-      </ul>
-    </section>
 
-    <!-- ABOUT & PROJECTS -->
-    <section class="content">
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        {% endif %}
+
+
+        {% if site.show_downloads %}
+        <ul class="linkim">
+          <li><a href="https://sapir-mardan.github.io/portfolio/CV.pdf">CV</a></li>
+          <li><a href="https://www.linkedin.com/in/sapirmardan/">LinkedIn</a></li>
+          <li><a href="https://github.com/sapir-mardan">GitHub</a></li>
+        </ul>
+        {% endif %}
+      </header>
+      <section>
+
       {{ content }}
-    </section>
 
-    <!-- FOOTER -->
-    <footer>
-      <p>Contact me by email: <a href="mailto:sapmardan@gmail.com">sapmardan@gmail.com</a></p>
-      <p><small>Thank you for checking out my portfolio!</small></p>
-    </footer>
-
+      </section>
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>Contact me by email: <a href="mailto:sapmardan@gmail.com">{{ "sapmardan@gmail.com" }}</a></p>
+        {% endif %}
+        <p><small>Thank you for checking out my portfolio!</small></p>
+      </footer>
+    </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
