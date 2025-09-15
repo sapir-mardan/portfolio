@@ -23,18 +23,16 @@ h7 {
 
 .linkim {
   list-style: none;
-  height: 28px;
   padding: 0;
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
   
-  display: flex;             /* flexbox layout */
-  align-items: center;       /* vertical centering */
-  justify-content: center;   /* horizontal centering */
-  
-  margin: 1.5em auto;        /* centers the whole box on the page */
-  width: fit-content;        /* box fits content, no extra space */
+  display: flex;
+  justify-content: center;
+  margin: 1.5em auto;
+  width: auto;   /* let it expand naturally */
+  height: auto;  /* don’t lock height */
 }
 
 
@@ -73,6 +71,20 @@ h7 {
 .linkim a:hover, .linkim a:focus {
   color: #1a1a1a; /* Slightly darker grey on hover */
   font-weight: normal; /* Keeping font weight normal even on hover */
+}
+
+.linkim li a {
+  display: inline-block;
+  padding: 12px 24px;      /* bigger clickable area */
+  font-size: 18px;         /* larger text */
+  font-weight: 500;        /* slightly bolder */
+  color: #000;             /* black text */
+  text-decoration: none;   /* remove underline */
+}
+
+.linkim li a:hover {
+  background: #eaeaea;     /* hover effect */
+  border-radius: 5px;
 }
 
 .intro-text { /*the intro below my picture*/
