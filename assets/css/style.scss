@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1em;
+}
+
 body {
   background-color: #e695af;
   padding:50px;
