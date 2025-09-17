@@ -17,18 +17,11 @@
     <div class="wrapper">
       <header>
         <h7>PORTFOLIO BY SAPIR MARDAN</h7>
-        <h2 class="main-title">Software & Data Projects</h2>
-
+        
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Profile picture" class="profile-pic" />
         {% endif %}
-
-        <p  class="intro-text"> 
-           Every project is <strong>well-documented on GitHub.</strong><br>
-           <strong>Here you can read short posts</strong> that explain the methods and results.  
-        </p>
-
-
+        
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_user_page %}
