@@ -4,7 +4,8 @@
   Every project is <strong>well-documented on GitHub.</strong><br>
   <strong>Here you can read short posts</strong> that explain the methods and results.  
 </p>
-----
+--- 
+
 ## About Me
 MSc graduate at Bristol University in Bioinformatics. I have expertise in a broad range of bioinformatics methods and tools, proficiency in Python, and experience in designing analysis pipelines, analyzing complex genomic data, R, and Unix/Linux environments.
   
