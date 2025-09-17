@@ -21,32 +21,6 @@ h7 {
   
 }
 
-.linkim {
-  background: #f4f4f4;
-  border-radius: 5px;
-  border: 1px solid #e0e0e0;
-
-  display: flex;
-  justify-content: center;
-  margin: 1.2em auto;   /* slightly less space around */
-  width: fit-content;   /* wraps neatly around buttons */
-  height: auto;         /* no fixed height */
-}
-
-
-
-.linkim li {
-  flex: 1;                     /* each takes equal space */
-  border-right: 1px solid #e0e0e0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.linkim li:last-child {
-  border-right: none;
-}
-
 .main-title {
   font-size: 28px;             /* larger than normal */
   font-family: 'Comfortaa', sans-serif;
@@ -56,19 +30,44 @@ h7 {
   margin-bottom: 1.5em;        /* adds breathing room */
 }
 
-.linkim a {
-  text-decoration: none;
-  color: #333333;
-  font-size: 16px;       /* slightly smaller text */
-  font-weight: 500;
-  text-align: center;
-  display: inline-block;
-  padding: 8px 18px;     /* less vertical & horizontal padding */
+
+.intro-text { /*the intro below my picture*/
+    font-size: 1.25em;   /*25% bigger than normal */
+    line-height: 1.6;    /*improves readability */
+    text-align: center;
 }
 
-.linkim a:hover, .linkim a:focus {
-  color: #1a1a1a; /* Slightly darker grey on hover */
-  font-weight: normal; /* Keeping font weight normal even on hover */
+
+
+.linkim {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 1.2em auto;
+  gap: 0.5em;
+}
+
+.linkim li {
+  display: inline-block;
+}
+
+.linkim a {
+  display: inline-block;
+  padding: 6px 14px;         /* smaller buttons */
+  font-size: 13px;           /* smaller font */
+  font-weight: 400;
+  text-decoration: none;
+  color: #333;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;        /* softer edges */
+  transition: all 0.2s ease;
+}
+
+.linkim a:hover {
+  background: #ececec;
+  color: #000;
 }
 
 .linkim li a {
@@ -83,12 +82,6 @@ h7 {
 .linkim li a:hover {
   background: #eaeaea;     /* hover effect */
   border-radius: 5px;
-}
-
-.intro-text { /*the intro below my picture*/
-    font-size: 1.25em;   /*25% bigger than normal */
-    line-height: 1.6;    /*improves readability */
-    text-align: center;
 }
 
 
