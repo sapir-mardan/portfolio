@@ -44,8 +44,8 @@ h7 {
   padding: 0;
   display: flex;
   justify-content: center;
-  margin: 1.2em auto;
-  gap: 0.5em;
+  margin: 1em auto;
+  gap: 0.4em;              /* tighter spacing */
 }
 
 .linkim li {
@@ -54,14 +54,14 @@ h7 {
 
 .linkim a {
   display: inline-block;
-  padding: 6px 14px;         /* smaller buttons */
-  font-size: 13px;           /* smaller font */
+  padding: 4px 10px;       /* smaller box size */
+  font-size: 11px;         /* 2/3 of your current font */
   font-weight: 400;
   text-decoration: none;
   color: #333;
   background: #f9f9f9;
   border: 1px solid #ddd;
-  border-radius: 6px;        /* softer edges */
+  border-radius: 4px;      /* softer */
   transition: all 0.2s ease;
 }
 
