@@ -45,21 +45,28 @@ h7 {
   display: flex;
   justify-content: center;
   margin: 1em auto;
-  gap: 0;              /* tighter spacing */
+  gap: 0.5em;               /* space between boxes */
 }
 
 .linkim li {
-  display: inline-block;
-  padding: 12px 24px;      /* bigger clickable area */
-  font-size: 18px;         /* larger text */
-  font-weight: 500;        /* slightly bolder */
-  color: #000;             /* black text */
-  text-decoration: none;   /* remove underline */
+  display: flex;            /* so text centers nicely */
+  align-items: center;
+  justify-content: center;
+  width: 100px;             /* 👈 fixed width: set to fit longest word */
+  height: 32px;             /* 👈 fixed height for consistency */
+  font-size: 13px;          /* smaller text */
+  font-weight: 500;
+  background: #f9f9f9;      /* box background */
+  border: 1px solid #ddd;   /* subtle border */
+  border-radius: 6px;       /* rounded corners */
+  color: #000;              /* text color */
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
-.linkim li :hover {
-  background: #eaeaea;     /* hover effect */
-  border-radius: 5px;
+.linkim li:hover {
+  background: #ececec;      /* hover effect */
 }
 
 
