@@ -8,11 +8,6 @@
 
 ----------------
 
-## About Me
-I’m an MSc graduate in Bioinformatics with strong skills in Python, R, SQL, and data analysis.   
-I learn quickly, work hard, and enjoy solving complex problems with efficient, practical solutions.
-
-
 ## Projects Examples
 
 ### Python:
