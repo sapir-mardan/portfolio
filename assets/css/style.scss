@@ -45,32 +45,10 @@ h7 {
   display: flex;
   justify-content: center;
   margin: 1em auto;
-  gap: 0.4em;              /* tighter spacing */
+  gap: 0;              /* tighter spacing */
 }
 
 .linkim li {
-  display: inline-block;
-}
-
-.linkim a {
-  display: inline-block;
-  padding: 4px 10px;       /* smaller box size */
-  font-size: 11px;         /* 2/3 of your current font */
-  font-weight: 400;
-  text-decoration: none;
-  color: #333;
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 4px;      /* softer */
-  transition: all 0.2s ease;
-}
-
-.linkim a:hover {
-  background: #ececec;
-  color: #000;
-}
-
-.linkim li a {
   display: inline-block;
   padding: 12px 24px;      /* bigger clickable area */
   font-size: 18px;         /* larger text */
@@ -79,26 +57,15 @@ h7 {
   text-decoration: none;   /* remove underline */
 }
 
-.linkim li a:hover {
+.linkim li :hover {
   background: #eaeaea;     /* hover effect */
   border-radius: 5px;
 }
 
 
-footer {
-  margin-top: 2em;
-  text-align: center;
-  font-size: 13px;
-  color: #333;
-}
 
-footer a {
-  color: #007acc;
-  text-decoration: none;
-}
 
-footer a:hover {
-  text-decoration: underline;
-}
+
+
 
 
