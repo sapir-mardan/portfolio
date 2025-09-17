@@ -1,8 +1,9 @@
 <h2 class="main-title">Software & Data Projects</h2>
 
 <p class="intro-text"> 
-  Every project is <strong>well-documented on GitHub.</strong><br>
-  <strong>Here you can read short posts</strong> that explain the methods and results.  
+  A selection of projects with <strong>clear explanations of methods and results.</strong><br>
+  Each project is <strong>well-documented on GitHub.</strong><br>
+
 </p>
 
 ----------------
