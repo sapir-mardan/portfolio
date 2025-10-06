@@ -10,7 +10,7 @@
 
 ## Featured Projects
 
-🌲 <strong>Forest Fire Simulation – Python model with parallelised performance & data visualisation</strong><br>
+<strong>Forest Fire Simulation – Python model with parallelised performance & data visualisation</strong><br>
 Built a computational simulation to model forest fire propagation, applying parameter exploration, statistical analysis, and data visualisation to identify key patterns and optimise performance.<br>
 <strong>Key skills:</strong> Python, Data Analysis, Statistical Modelling, Data Visualisation, Problem Solving, Performance Optimisation<br>
 👉 <a href="https://github.com/your-link-here" target="_blank">View on GitHub</a>
