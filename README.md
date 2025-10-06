@@ -12,7 +12,7 @@
 
 <strong>Forest Fire Simulation - </strong> Python model with parallelised performance & data visualisation<br>
 <strong>Key skills:</strong> Python, Data Analysis, Statistical Modelling, Data Visualisation, Problem Solving, Performance Optimisation<br>
-👉 <a href="{{ site.baseurl }}/2025/02/01/forest-fire-simulation.html">Read project post</a> |
+👉 <a href="{{ site.baseurl }}/blog/forest-fire-simulation.html">Read project post</a> |
 <a href="https://github.com/sapir-mardan/CellularAutomataFireModel" target="_blank">View on GitHub</a>
 
 ### Python:
