@@ -8,7 +8,26 @@
 
 ----------------
 
-## Projects Examples
+## Featured Projects
+
+### Forest Fire Simulation – Python model with parallelised performance & data visualisation
+
+<div class="project">
+  <h3>Forest Fire Simulation – Python model with parallelised performance & data visualisation</h3>
+  <p>
+    Built a computational simulation to model forest fire propagation, applying parameter exploration, 
+    statistical analysis, and visualisation to understand dynamic patterns.
+  </p>
+  <ul class="project-skills">
+    <li>Python</li>
+    <li>Parallelisation</li>
+    <li>Simulation</li>
+    <li>Data Analysis</li>
+    <li>Visualisation</li>
+    <li>Optimisation</li>
+  </ul>
+  <p><a href="https://github.com/your-link-here" target="_blank">View on GitHub →</a></p>
+</div>
 
 ### Python:
 * **Cellular Automata Simulation**: Computationally efficient simulation of a a forest fire propagation model, with statistical analysis and visualizations. [GitHub.](https://github.com/sapir-mardan/CellularAutomataFireModel)
