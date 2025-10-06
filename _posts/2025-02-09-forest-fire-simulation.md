@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Forest Fire Simulation – Python Model with Parallelised Performance & Data Visualisation"
-date: 2025-02-01
+title: "Forest Fire Simulation"
+permalink: /forest-fire-simulation.html
 ---
 
 In this project, I built a **computational simulation** to model forest fire propagation.  
